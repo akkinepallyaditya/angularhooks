@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AngularhookComponent } from './angularhook/angularhook.component';
+import { TypesafetyComponent } from './typesafety/typesafety.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AngularhookComponent
+    AngularhookComponent,
+    TypesafetyComponent
   ],
   imports: [
     BrowserModule,
