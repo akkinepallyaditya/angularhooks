@@ -11,5 +11,7 @@ export class TypesafetyComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  age:number=25;
+  age="hello";
 
 }
